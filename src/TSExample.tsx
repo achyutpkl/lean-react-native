@@ -11,7 +11,7 @@ import {
   View,
 } from 'react-native';
 
-import LinkSDK from './components/LinkSDK';
+import LinkSDK from '..';
 
 interface LeanMethods {
   link: (p: object) => void;
