@@ -1,0 +1,5 @@
+ extern const unsigned char linkreactnativeVersionString[];
+ extern const double linkreactnativeVersionNumber;
+
+ const unsigned char linkreactnativeVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:linkreactnative  PROJECT:linkreactnative-1" "\n";
+ const double linkreactnativeVersionNumber __attribute__ ((used)) = (double)1.;
